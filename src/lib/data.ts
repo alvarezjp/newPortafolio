@@ -31,7 +31,6 @@ export type Project = {
 const project1Image = PlaceHolderImages.find(p => p.id === 'project-1');
 const project2Image = PlaceHolderImages.find(p => p.id === 'project-2');
 const project3Image = PlaceHolderImages.find(p => p.id === 'project-3');
-const project4Image = PlaceHolderImages.find(p => p.id === 'project-4');
 
 export const projects: Project[] = [
   {
@@ -61,16 +60,6 @@ export const projects: Project[] = [
     image: project3Image?.imageUrl || '',
     imageHint: project3Image?.imageHint || 'mobile app',
     tags: ['React Native', 'Firebase', 'TypeScript'],
-    githubUrl: '#',
-  },
-  {
-    id: 'project-4',
-    title: 'SaaS Landing Page',
-    description: 'A responsive and high-converting landing page for a software-as-a-service product, built with performance in mind.',
-    image: project4Image?.imageUrl || '',
-    imageHint: project4Image?.imageHint || 'website landing',
-    tags: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-    liveUrl: '#',
     githubUrl: '#',
   },
 ];
