@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
@@ -31,9 +31,6 @@ export function HeroSection() {
           </a>
           <a href="#" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
             <Linkedin className="h-7 w-7" />
-          </a>
-          <a href="#" aria-label="Twitter" className="text-muted-foreground transition-colors hover:text-primary">
-            <Twitter className="h-7 w-7" />
           </a>
         </div>
       </div>
