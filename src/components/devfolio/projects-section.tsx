@@ -11,7 +11,7 @@ export function ProjectsSection() {
             Here are some of the projects I'm proud of.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl gap-8 md:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-3">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
