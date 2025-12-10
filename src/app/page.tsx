@@ -23,20 +23,20 @@ export default function Home() {
               <path d="M16 18l6-6-6-6" />
               <path d="M8 6l-6 6 6 6" />
             </svg>
-            <span className="font-bold sm:inline-block">DevFolioX</span>
+            <span className="font-bold sm:inline-block">Portafolio</span>
           </Link>
           <nav className="flex flex-1 items-center space-x-6 text-sm font-medium">
             <Link
               href="#projects"
               className="text-muted-foreground/70 transition-colors hover:text-foreground"
             >
-              Projects
+              Proyectos
             </Link>
             <Link
               href="#tech-stack"
               className="text-muted-foreground/70 transition-colors hover:text-foreground"
             >
-              Tech
+              Tecnologias
             </Link>
           </nav>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
       <footer className="bg-secondary">
         <div className="container mx-auto flex h-20 max-w-screen-2xl flex-col items-center justify-between gap-4 px-4 text-center md:flex-row md:px-6">
           <p className="text-sm text-muted-foreground">
-            © 2024 DevFolioX. Built by Alex Doe.
+            © 2025 Portafolio construido por Jesus Alvarez.
           </p>
           <div className="flex items-center gap-4">
             <a href="#" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">

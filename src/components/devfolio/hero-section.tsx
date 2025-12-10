@@ -8,21 +8,18 @@ export function HeroSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="space-y-4">
           <h1 className="text-5xl font-bold tracking-tighter text-foreground sm:text-6xl md:text-7xl lg:text-8xl">
-            Alex Doe
+            Jesus Alvarez
           </h1>
           <h2 className="text-2xl font-medium text-primary md:text-3xl">
-            Full-Stack Developer
+            Front-End Developer
           </h2>
           <p className="mx-auto max-w-[700px] text-lg text-muted-foreground md:text-xl">
-            I'm a passionate developer focused on building beautiful, functional, and user-friendly web applications. Welcome to my digital portfolio.
+            ¡Hola! Este es mi portafolio, donde comparto lo que he ido aprendiendo y creando como desarrollador frontend.
           </p>
         </div>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Button asChild size="lg">
-            <Link href="#projects">My Work</Link>
-          </Button>
-          <Button asChild variant="secondary" size="lg">
-            <a href="mailto:alex.doe@example.com">Get in Touch</a>
+            <Link href="#projects">Mis trabajos</Link>
           </Button>
         </div>
         <div className="mt-10 flex items-center justify-center gap-6">
