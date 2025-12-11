@@ -1,20 +1,31 @@
-import type { LucideIcon } from 'lucide-react';
-import { CodeXml, Server, Database, Cloud, Type, Wind, Palette } from 'lucide-react';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { IconType } from "react-icons";
+import { FaAws, FaFigma, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa6";
+import { RiNextjsLine, RiTailwindCssFill, RiVercelFill } from "react-icons/ri";
+import { SiMysql, SiReactquery, SiRedux, SiStrapi } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
 
 export type Technology = {
   name: string;
-  icon: LucideIcon;
+  icon: IconType;
 };
 
 export const technologies: Technology[] = [
-  { name: 'React', icon: CodeXml },
-  { name: 'Next.js', icon: CodeXml },
-  { name: 'TypeScript', icon: Type },
-  { name: 'Node.js', icon: Server },
-  { name: 'PostgreSQL', icon: Database },
-  { name: 'Tailwind CSS', icon: Palette },
-  { name: 'Vercel', icon: Cloud },
+  { name: 'React', icon: FaReact  },
+  { name: 'Next.js', icon: RiNextjsLine  },
+  { name: 'TypeScript', icon: TbBrandTypescript },
+  { name: 'Node.js', icon: FaNodeJs  },
+  { name: 'MySQL', icon: SiMysql },
+  { name: 'Tailwind CSS', icon: RiTailwindCssFill  },
+  { name: 'Vercel', icon: RiVercelFill  },
+  { name: 'Figma', icon: FaFigma   },
+  { name: 'Redux', icon: SiRedux    },
+  { name: 'React Query', icon: SiReactquery    },
+  { name: 'Git', icon: FaGitAlt    },
+  { name: 'GitHub', icon: FaGithub     },
+  { name: 'Strapi', icon: SiStrapi      },
+  { name: 'AWS', icon: FaAws       },
 ];
 
 export type Project = {
@@ -22,7 +33,6 @@ export type Project = {
   title: string;
   description: string;
   image: string;
-  imageHint: string;
   tags: string[];
   liveUrl?: string;
   githubUrl?: string;
@@ -38,29 +48,26 @@ export const projects: Project[] = [
     title: 'Landing Page para agencia de diseño',
     description: 'Sitio web moderno y responsivo para una agencia de diseño web, con una estructura clara, secciones informativas y un diseño visual limpio enfocado en la experiencia del usuario.',
     image: project1Image?.imageUrl || '',
-    imageHint: project1Image?.imageHint || 'laptop code',
     tags: ['Next.js', 'TypeScript', 'Vite', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://new-mapaches.vercel.app/',
+    githubUrl: 'https://github.com/alvarezjp/newMapaches',
   },
   {
     id: 'project-2',
     title: 'Aurea Consulting',
     description: 'Landing page profesional para Aurea Consulting, enfocada en comunicar los servicios de consultoría y generar confianza en los visitantes, con diseño limpio y navegación intuitiva.',
     image: project2Image?.imageUrl || '',
-    imageHint: project2Image?.imageHint || 'dashboard charts',
     tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://portafolio-aurea-consulting.vercel.app/',
+    githubUrl: 'https://github.com/alvarezjp/Portafolio-AureaConsulting',
   },
   {
     id: 'project-3',
     title: 'Landing Page Marketing',
     description: 'Landing page para promocionar un curso de marketing, enfocada en comunicar los beneficios y el temario del curso, con un diseño limpio, navegación intuitiva y formularios de inscripción visibles.',
     image: project3Image?.imageUrl || '',
-    imageHint: project3Image?.imageHint || 'mobile app',
     tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://portafolio-landing-marketing.vercel.app/',
+    githubUrl: 'https://github.com/alvarezjp/Portafolio-LandingMarketing',
   },
 ];

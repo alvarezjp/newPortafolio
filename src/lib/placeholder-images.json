@@ -2,21 +2,18 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "Screenshot of the e-commerce platform homepage",
-      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYXB0b3AlMjBjb2RlfGVufDB8fHx8MTc2NTM0Njk1OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "laptop code"
+      "description": "Imagen de un proyecto de desarrollo web",
+      "imageUrl": "/images/project-1.png"
     },
     {
       "id": "project-2",
-      "description": "Dashboard of the data visualization app",
-      "imageUrl": "https://images.unsplash.com/photo-1666537072157-440346cea066?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXNoYm9hcmQlMjBjaGFydHN8ZW58MHx8fHwxNzY1MzAwMzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dashboard charts"
+      "description": "Imagen de un proyecto de desarrollo web",
+      "imageUrl": "/images/project-2.png"
     },
     {
       "id": "project-3",
-      "description": "Mobile view of the social media app",
-      "imageUrl": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY1MzMzODgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "description": "Imagen de un proyecto de desarrollo web",
+      "imageUrl": "/images/project-3.png"
     }
-  ]
+  ] 
 }
