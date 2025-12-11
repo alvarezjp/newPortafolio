@@ -23,10 +23,10 @@ export function HeroSection() {
           </Button>
         </div>
         <div className="mt-10 flex items-center justify-center gap-6">
-          <a href="#" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
+          <a href="https://github.com/alvarezjp" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
             <Github className="h-7 w-7" />
           </a>
-          <a href="#" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
+          <a href="https://www.linkedin.com/in/jesusalvarezpasmino/" aria-label="LinkedIn" className="text-muted-foreground transition-colors hover:text-primary">
             <Linkedin className="h-7 w-7" />
           </a>
         </div>

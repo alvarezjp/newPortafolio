@@ -54,7 +54,7 @@ export default function Home() {
             © 2025 Portafolio construido por Jesus Alvarez.
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
+            <a href="https://github.com/alvarezjp" aria-label="GitHub" className="text-muted-foreground transition-colors hover:text-primary">
               <Github className="h-5 w-5" />
             </a>
           </div>
